@@ -1,13 +1,12 @@
 #!/bin/bash
 
-# Desired filename
-FILENAME="*\\'\"Best School\"\\*$?******:)"
+# Define the filename
+filename='*\\'"Best School"'\\*$?******:)'
 
-# Desired content
-CONTENT="Best School\n"
+# Define the content
+content="Best School\n"
 
-# Create the file with the desired content
-echo -e "$CONTENT" > "$FILENAME"
+# Create the file with the specified name and content
+echo -e "$content" > "$filename"
 
-echo "File '$FILENAME' created with content:"
-cat "$FILENAME"
+echo "File created: $filename"
