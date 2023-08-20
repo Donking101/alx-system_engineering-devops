@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Define the filename
-filename='*\\'"Best School"'\\*$?******:)'
-
+filename=```'\*\\'"Best School"'\\*\$\?\\*\\*\\*\\*\\*:)'```
+# \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) 
 # Define the content
 content="Best School\n"
 
